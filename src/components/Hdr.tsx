@@ -62,7 +62,7 @@ export default function Hdrtwo() {
           <NavigationMenuList className="space-x-6">
             <NavigationMenuItem>
               <Link 
-                href="/products" 
+                href="/all-products" 
                 className="text-sm text-muted-foreground transition-colors hover:text-primary"
               >
                 All products
@@ -94,7 +94,7 @@ export default function Hdrtwo() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link 
-                href="/categories/chairs" 
+                href="/product-listing" 
                 className="text-sm text-muted-foreground transition-colors hover:text-primary"
               >
                 Chairs
