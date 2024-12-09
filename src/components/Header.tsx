@@ -66,17 +66,23 @@ const Header = () => {
                 <Link href="/" className="hover:text-[#5a526c]">
                   Tables
                 </Link>
-                <Link href="/" className="hover:text-[#5a526c]">
+                <Link href="/product-listing" className="hover:text-[#5a526c]">
                   Chairs
                 </Link>
                 <Link href="/" className="hover:text-[#5a526c]">
                   Crockery
                 </Link>
                 <Link href="/" className="hover:text-[#5a526c]">
-                  Tableware
-                </Link>
-                <Link href="/" className="hover:text-[#5a526c]">
                   Cutlery
+                </Link>
+                <Link href="/aboutus" className="hover:text-[#5a526c]">
+                  About Us
+                </Link>
+                <Link href="/product-listing" className="hover:text-[#5a526c]">
+                  Product Listing
+                </Link>
+                <Link href="/shopping-baskets" className="hover:text-[#5a526c]">
+                  Shopping Baskets
                 </Link>
               </nav>
             </SheetContent>
@@ -84,7 +90,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation links */}
-        <nav className="hidden lg:flex w-[675px] justify-between items-center h-1/2 text-[#726E8D]">
+        <nav className="hidden lg:flex w-[675px] justify-between m-2 items-center h-1/2 text-[#726E8D]">
           <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
             Plant pots
           </Link>
@@ -94,17 +100,20 @@ const Header = () => {
           <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
             Tables
           </Link>
-          <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
+          <Link href="/product-listing" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
             Chairs
           </Link>
           <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
             Crockery
           </Link>
           <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
-            Tableware
-          </Link>
-          <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">
             Cutlery
+          </Link>
+          <Link href="/aboutus" className="hover:text-[#5a526c]">
+            About Us
+          </Link>
+          <Link href="/shopping-baskets" className="hover:text-[#5a526c]">
+            Shopping Baskets
           </Link>
         </nav>
       </header>

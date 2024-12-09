@@ -25,7 +25,7 @@ export default function Hdrtwo() {
           <div className="flex items-center space-x-8">
             <nav className="hidden space-x-6 md:flex">
               <Link
-                href="/about"
+                href="/aboutus"
                 className="text-sm text-muted-foreground transition-colors hover:text-primary"
               >
                 About us

@@ -83,7 +83,7 @@ export function Navbar() {
             Cutlery
           </Link>
           <Link
-            href="/about"
+            href="/aboutus"
             className="text-sm text-muted-foreground transition-colors hover:text-primary"
           >
             About Us

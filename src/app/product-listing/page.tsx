@@ -56,7 +56,7 @@ export default function ProductPage() {
     <Navbar/> 
     <div className="container mx-auto grid gap-8 px-4 md:grid-cols-2 md:gap-12 md:px-6">
       <div className="relative aspect-square w-full bg-muted">
-        <img
+        <Image
           src="/pictures/Image Left.png"
           alt="The Dandy Chair"
           className="object-cover"

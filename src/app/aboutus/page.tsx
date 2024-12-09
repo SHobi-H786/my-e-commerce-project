@@ -1,6 +1,9 @@
 import Features from "@/components/Features"
 import { Button } from "@/components/ui/button"
 import Hdrtwo from "@/components/Hdr"
+import SignUp from "../../components/Email-Signup"
+import Footer from "@/components/Footer"
+import Image from "next/image"
 
 export default function AboutSection() {
   return (
@@ -35,7 +38,7 @@ export default function AboutSection() {
 
         {/* Right Column */}
         <div className="relative aspect-square bg-[#F9F9F9]">
-          <img
+          <Image
             src="/pictures/features2.png"
             alt="Modern living room setup with plants and furniture"
             className="object-cover w-full h-full"
@@ -49,7 +52,7 @@ export default function AboutSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Left Column - Image */}
         <div className="relative aspect-square bg-[#F9F9F9]">
-          <img
+          <Image
             src="/pictures/Image.png"
             alt="Minimalist room with black sofa"
             className="object-cover w-full h-full"
@@ -77,6 +80,8 @@ export default function AboutSection() {
         </div>
       </div>
       <Features/>
+      <SignUp/>
+      <Footer/>
     </div>
   )
 }
