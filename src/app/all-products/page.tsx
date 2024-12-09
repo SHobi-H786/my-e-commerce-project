@@ -68,8 +68,10 @@ export default function ProductsPage() {
   ]
 
   return (
-    <div className="grid grid-cols-4 gap-6 p-6">
+    <div>
         <Header/>
+    <div className="grid grid-cols-4 gap-6 p-6">
+        
       {/* Filters Sidebar */}
       <div className="space-y-6">
         <div>
@@ -132,7 +134,9 @@ export default function ProductsPage() {
           <Button variant="outline">Load more</Button>
         </div>
       </div>
-      <Footer/>
+      
+    </div>
+    <Footer/>
     </div>
   )
 }
