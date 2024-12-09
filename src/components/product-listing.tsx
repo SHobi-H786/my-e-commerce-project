@@ -1,31 +1,7 @@
 'use client'
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Truck, SmilePlus, CreditCard, Recycle } from 'lucide-react'
 
-
-const features = [
-  {
-    icon: Truck,
-    title: "Next day as standard",
-    description: "Order before 3pm and get your order the next day as standard"
-  },
-  {
-    icon: SmilePlus,
-    title: "Made by true artisans",
-    description: "Handmade crafted goods made with real passion and craftmanship"
-  },
-  {
-    icon: CreditCard,
-    title: "Unbeatable prices",
-    description: "For our materials and quality you won't find better prices anywhere"
-  },
-  {
-    icon: Recycle,
-    title: "Recycled packaging",
-    description: "We use 100% recycled packaging to ensure our footprint is manageable"
-  }
-]
 
 const products = [
   {

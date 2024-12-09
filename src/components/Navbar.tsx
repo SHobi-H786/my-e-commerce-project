@@ -5,16 +5,6 @@ import Link from "next/link"
 import { Search, ShoppingCart, User, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
-const navItems = [
-    "Plant pots",
-    "Ceramics",
-    "Tables",
-    "Chairs",
-    "Crockery",
-    "Tableware",
-    "Cutlery",
-]
-
 export function Navbar() {
     const [showBanner, setShowBanner] = useState(true)
 

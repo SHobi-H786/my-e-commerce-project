@@ -6,7 +6,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PopularProducts from "@/components/popular-product-listing";
 import ProductListing from "@/components/product-listing";
-import Image from "next/image";
 
 export default function Home() {
   return (

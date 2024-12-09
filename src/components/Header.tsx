@@ -1,23 +1,18 @@
 "use client";
 
-
 import Link from "next/link";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
-import { useState } from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <>
       <header className="max-w-[1440px] h-[132px] flex flex-col items-center bg-white px-10 lg:w-full mx-auto">
@@ -43,10 +38,7 @@ const Header = () => {
           {/* Mobile Menu Trigger */}
           <Sheet>
             <SheetTrigger>
-              <div
-                onClick={() => setIsOpen(true)}
-                className="cursor-pointer lg:hidden flex flex-col gap-1 font-light"
-              >
+              <div className="cursor-pointer lg:hidden flex flex-col gap-1 font-light">
                 <span className="block w-6 h-1 bg-black"></span>
                 <span className="block w-6 h-1 bg-black"></span>
                 <span className="block w-6 h-1 bg-black"></span>
@@ -77,9 +69,6 @@ const Header = () => {
                 </Link>
                 <Link href="/aboutus" className="hover:text-[#5a526c]">
                   About Us
-                </Link>
-                <Link href="/product-listing" className="hover:text-[#5a526c]">
-                  Product Listing
                 </Link>
                 <Link href="/shopping-baskets" className="hover:text-[#5a526c]">
                   Shopping Baskets

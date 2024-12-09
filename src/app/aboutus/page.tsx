@@ -1,14 +1,14 @@
-import Features from "@/components/Features"
-import { Button } from "@/components/ui/button"
-import Hdrtwo from "@/components/Hdr"
-import SignUp from "../../components/Email-Signup"
-import Footer from "@/components/Footer"
-import Image from "next/image"
+import Features from "@/components/Features";
+import { Button } from "@/components/ui/button";
+import Hdrtwo from "@/components/Hdr";
+import SignUp from "../../components/Email-Signup";
+import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <Hdrtwo/>
+      <Hdrtwo />
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium max-w-3xl mx-auto leading-tight">
@@ -64,7 +64,7 @@ export default function AboutSection() {
         {/* Right Column - Content */}
         <div className="space-y-6">
           <h2 className="text-2xl font-medium">
-            Our service isn't just personal, it's actually hyper personally exquisite
+            Our service isn&apos;t just personal, it&apos;s actually hyper personally exquisite
           </h2>
           <div className="space-y-4">
             <p className="text-muted-foreground">
@@ -79,10 +79,9 @@ export default function AboutSection() {
           </Button>
         </div>
       </div>
-      <Features/>
-      <SignUp/>
-      <Footer/>
+      <Features />
+      <SignUp />
+      <Footer />
     </div>
-  )
+  );
 }
-

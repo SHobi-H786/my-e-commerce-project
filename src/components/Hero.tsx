@@ -24,7 +24,7 @@ export default function Hero() {
            </div>
            <div className="relative h-full min-h-[400px] w-full">
              <Image
-               src={require("../../public/pictures/Right Image.png")}
+               src="/pictures/Right Image.png"
                alt="Modern chair design"
                height={1000}
                width={520}
